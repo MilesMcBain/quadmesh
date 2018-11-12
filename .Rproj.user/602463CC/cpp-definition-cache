@@ -1,2 +1,32 @@
 [
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "D:/GIT/quadmesh/src/corners.cpp",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "corners_cpp(NumericVector, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@corners_cpp#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            }
+        ],
+        "file" : "D:/GIT/quadmesh/src/corners.cpp",
+        "file_last_write" : 1522936818
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "D:/GIT/quadmesh/src/init.c",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "R_init_quadmesh(DllInfo *)",
+                "parent_name" : "",
+                "usr" : "c:@F@R_init_quadmesh"
+            }
+        ],
+        "file" : "D:/GIT/quadmesh/src/init.c",
+        "file_last_write" : 1522913918
+    }
 ]

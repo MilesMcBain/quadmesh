@@ -71,7 +71,7 @@ quadmesh <- function(x, z = x, na.rm = FALSE) {
   ob
 }
 
-quad <- function(x, z = x, na.rm = FALSE) {
+quad0 <- function(x, z = x, na.rm = FALSE) {
   x <- x[[1]]  ## just the oneth raster for now
   exy <- quadmesh:::edgesXY(x)
   ind <- apply(quadmesh:::prs(seq(ncol(x) + 1)), 1, quadmesh:::p4, nc = ncol(x) + 1)

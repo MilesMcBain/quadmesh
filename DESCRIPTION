@@ -7,7 +7,10 @@ Description: Gridded data need not be regular, quadmesh creates a mesh from rast
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 6.0.1
-Imports: dplyr, raster
+Imports: 
+    dplyr,
+    raster,
+    Rcpp
 Suggests: datasets,
     knitr,
     rmarkdown
@@ -15,3 +18,5 @@ URL: https://github.com/mdsumner/quadmesh
 BugReports: https://github.com/mdsumner/quadmesh/issues
 VignetteBuilder: knitr
 ByteCompile: true
+LinkingTo: 
+    Rcpp
